@@ -1,4 +1,11 @@
-# LST-RE
-Long-short Term Recurrent Evolutional Network.
+# MTDM
+Temporal Knowledge Graph Reasoning Triggered by Memories
 
-We proposed a long short-term recurrent evolutional network (LST-RE), which incorporates the static entity representation, the deep memory, the short term entity attribute representation, and the long term entity attribute representation. Specifically, a short-term memory network considers the latest events as a static knowledge graph, and a long-term memory network is regarded as a sequence of recurrent short-term memory networks. Each recurrent unit contains a structural encoder and a time encoder. We introduce a residual multi-relational aggregator as the structural encoder to solve the multi-hop coverage problem. Extensive experiments demonstrate the LST-RE alleviates the history dependence problem and realizes the state-of-the-art performance. Moreover, compared with the most advanced baseline,  LST-RE achieves up to 2 times the training acceleration even combines the long-short term networks.
+To alleviate the time dependence, we propose a memory-triggered decision-making (MTDM) network, which incorporates transient memories, long-short-term memories, and deep memories.
+Specifically, a transient learning network considers the latest events as a static knowledge graph, and a time-aware recurrent evolutional network is regarded as a sequence of recurrent evolution units. 
+Each evolution unit consists of a structural encoder to aggregate edge information, a time encoder with a gating unit to update attribute representations of entities based on
+structural encoder outputs. 
+Both the transient learning network and time-aware recurrent evolutional network utilize the crafted residual multi-relational aggregator as the structural encoder to solve the multi-hop coverage problem. 
+We also introduce adversarial learning for understanding events dissolution. 
+Extensive experiments demonstrate the MTDM alleviates the history dependence and achieves state-of-the-art prediction performance.
+Moreover, compared with the most advanced baseline, MTDM performs faster convergence speed and training speed.
