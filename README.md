@@ -1,4 +1,4 @@
 # M-ITL
-Memory-initialized Temporal Knowledge Graph Reasoning
+Temporal Knowledge Graph Reasoning Triggered by Memories
 
 Code will be publicly available.
